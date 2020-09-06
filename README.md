@@ -4,6 +4,15 @@
 #### A fiction project to learn Django creating a web app that controls all the travels from *KAPA-C*, the best travel agency in the galaxy!
 
 ---
+
+## Table of contents
+
+- [Start a Django project](#start-a-django-project)
+- [Development server](#development-server)
+- [Creating our first app](#creating-our-first-app)
+- [MTV Pattern](#mtv-pattern)
+- [Creating our first view](#creating-our-first-view)
+
 ### Start a Django project
 Before we start coding and building the site for the best space travel agency, we need to setup all our enviroment. To do this we need to install the latest version of Django. I recommend you use a virtual enviroment. In my case I'm going to use conda as default package manager, but you can use pip if you prefer.
 
