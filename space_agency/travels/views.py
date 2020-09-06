@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.http import HttpResponse 
 
-# Create your views here.
+def home(request): 
+    dummy_html = "<h1> Hi! You are visiting the space travel agency</h1>"
+
+    return HttpResponse(dummy_html)
